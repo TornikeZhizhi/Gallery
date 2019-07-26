@@ -7,14 +7,13 @@ body{
 }
 
 header{
-    max-width: 1200px;
-    margin: 0 auto;
+    width:100%;
 
     .header_top{
-        display: flex;
+       display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top:10px;
+        padding: 40px 85px;
         
         
         .lang{
@@ -25,14 +24,22 @@ header{
     }
 
 
-    nav{
-        background-color: #3e9578;
-        margin-top: 30px;
+    .header_navigation{
+           background-color: #3e9578;
+
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 30px;
+
         
         ul{
-            display: flex;
+             display: flex;
             justify-content: space-around;
             align-items: center;
+            flex-grow: 1;
+            max-width: 1000px;
+            width: 100%;
+
             
         }
 

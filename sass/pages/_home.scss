@@ -1,3 +1,54 @@
-img{
-    width: 300px
+
+
+
+.home_category_container {
+
+	    height: calc(100vh - 210px);
+
+	    .row {
+	    	height: inherit;
+
+	    	.col-12 {
+	    		height: 50%;
+
+	    		.category_box {
+	    			    height: 100%;
+
+	    				.category_img {
+	    					height:inherit;
+
+	    					a {
+	    						height: inherit;
+							    display: flex;
+							    align-items: center;
+
+	    						img {
+	    						height: 83%;
+	    						}
+	    					}
+	    				}
+	    		}
+	    	}
+	    }
+}
+
+
+.category_box {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
+	 .category_img {
+
+	 	 a {
+	 	 	display: block;
+	 	 	 img {
+
+	 	 	 
+	 	 	 }
+	 	 }
+	 }
 }
