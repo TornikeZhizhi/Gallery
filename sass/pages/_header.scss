@@ -13,13 +13,26 @@ header{
        display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 40px 85px;
+       padding: 40px 0px 40px 85px;
         
         
         .lang{
-            background-color: #ffe9aa;
-            color: white;
-            font-size: 12px;
+            
+
+
+             a {
+
+                background-color: #ffe9aa;
+                color: white;
+                font-size: 12px;
+                padding:7px;
+
+                  &.active {
+                   background-color: #f5c745;
+
+
+                  }
+             }
         }
     }
 
@@ -29,7 +42,7 @@ header{
 
             display: flex;
             justify-content: space-between;
-            padding: 10px 30px;
+            padding: 10px 75px 10px 30px;
 
         
         ul{
@@ -39,7 +52,7 @@ header{
             flex-grow: 1;
             max-width: 1000px;
             width: 100%;
-
+ 
             
         }
 
