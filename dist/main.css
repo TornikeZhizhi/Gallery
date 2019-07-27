@@ -137,3 +137,63 @@ header .header_navigation img {
   width: 30px;
 }
 
+.category_for_home {
+  text-transform: uppercase;
+  margin: 80px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category_for_home img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.category_for_home .for_home_content {
+  margin-top: 20px;
+}
+
+.category_for_home .for_home_content span a {
+  color: #ffbc00;
+}
+
+.category_for_home .for_home_content ul {
+  margin-top: 30px;
+}
+
+.category_for_home .for_home_content ul a {
+  color: #3e9578;
+  line-height: 30px;
+}
+
+.back_icon {
+  text-align: right;
+  margin: 60px;
+}
+
+.cups_container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.cups_container .cups_title {
+  color: orange;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.cups_container .cup_box {
+  margin: 20px auto;
+}
+
+.cups_container .cup_box img {
+  width: 100%;
+}
+
+.cups_container .cup_box .cup_info span {
+  display: block;
+  color: #3e9578;
+  margin-top: 5px;
+}
+
