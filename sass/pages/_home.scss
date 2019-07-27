@@ -15,14 +15,21 @@
 	    			    height: 100%;
 	    			    perspective: 200px;
 
+	    			    &:hover .category_tittle a{
+	    						color: #f5c745;
+	    						
+	    					}
+
 	    				.category_img {
 	    					height:calc(100% - 12px);
 	    					transition: all .4s;
 
 	    					&:hover{
 
-	    						animation: rotateAnime 1s linear;
+	    						animation: rotateAnime 1s linear backwards;
 	    					}
+
+	    					
 
 
 	    					a {
@@ -49,13 +56,13 @@
 	}
 
 	40%{
-		transform: rotate(4deg);
+		transform: rotate(-4deg);
 	}
 
 
 	70%{
 
-		transform: rotate(-4deg);
+		transform: rotate(4deg);
 	}
 
 	100%{
@@ -90,9 +97,6 @@
 		color: #3e9578;
 		transition: all .4s;
 		text-transform: capitalize;
-		&:hover{
-			color: #f5c745;
-
-		}
+		
 	}
 }

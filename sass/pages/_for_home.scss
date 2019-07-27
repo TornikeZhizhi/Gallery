@@ -1,19 +1,18 @@
 .category_for_home{
-    text-transform: uppercase;
-    margin: 80px auto;
-    width: 80%;
+    
     display: flex;
-    justify-content: space-around;
-    
-    
-    img{
-        max-width: 400px;
-        width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    .for_home_img {
+        img{
+            max-width: 400px;
+            width: 100%;
+        }
+        
     }
     
     .for_home_content{
         margin-top: 20px;
-
 
         span a{
             color: #ffbc00
@@ -24,9 +23,36 @@
             margin-top: 30px;
         }
 
-        ul a{
-            color: #3e9578;
-            line-height: 30px
+        ul {
+
+            li{
+
+                &:not(:last-child){
+                    margin-bottom: 10px;
+                }
+
+
+            a{
+                color: #3e9578;
+                line-height: 30px;
+                text-transform: capitalize;
+                font-size: 24px;
+                    display: inline-block;
+
+                    &.hide {
+
+                        opacity: .5;
+                    }
+
+               
+            }
+              &:first-child a{
+                    color: $yellow;
+                    margin-bottom: 20px;
+                }
+
+        }
+
         }
     }
 
@@ -34,5 +60,9 @@
 
 .back_icon{
     text-align: right;
-    margin: 60px;
+    margin-top: 20px;
+}
+
+.height_calc {
+    height: calc(100vh - 210px)
 }
