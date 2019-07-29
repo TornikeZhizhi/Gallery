@@ -207,10 +207,12 @@ header .header_navigation img {
   justify-content: center;
 }
 
+.category_for_home .for_home_img {
+  margin-right: 20px;
+}
+
 .category_for_home .for_home_img img {
-  max-width: 400px;
   width: 100%;
-  margin-top: 80px;
 }
 
 .category_for_home .for_home_content {
@@ -223,6 +225,11 @@ header .header_navigation img {
 
 .category_for_home .for_home_content ul {
   margin-top: 30px;
+}
+
+.category_for_home .for_home_content ul {
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 .category_for_home .for_home_content ul li:not(:last-child) {

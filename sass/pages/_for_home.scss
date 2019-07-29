@@ -4,10 +4,11 @@
     flex-direction: column;
     justify-content: center;
     .for_home_img {
+        margin-right: 20px;
         img{
-            max-width: 400px;
+          
             width: 100%;
-            margin-top:80px;
+        
         }
         
     }
@@ -25,6 +26,9 @@
         }
 
         ul {
+
+            max-height: 300px;
+            overflow-y: scroll;
 
             li{
 
