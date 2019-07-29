@@ -1,6 +1,5 @@
 .cups_container{
-    width: 80%;
-    margin: 40px auto;
+   
 
     .cups_title{
         color: orange;
@@ -9,12 +8,24 @@
         
     }
 
+    .img_box {
+        width: 100%;
+    }
+
     .cup_box{
         margin:20px auto;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
 
 
         img{
             width: 100%;
+            height: 100%;
+            object-fit: cover
         }
     
         .cup_info span{
