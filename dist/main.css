@@ -259,6 +259,7 @@ header .header_navigation img {
   color: orange;
   font-size: 16px;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .cups_container .img_box {
