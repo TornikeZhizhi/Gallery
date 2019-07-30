@@ -1,0 +1,71 @@
+.workshops_container{
+    
+    padding:50px;
+
+    .workshops_img img{
+        width: 100%;
+    }
+
+    .workshops_content{
+        padding: 20px;
+        color:#3e9578;
+
+
+        h2{
+            text-align: center;
+            color:#3e9578;
+            font-size: 23px;
+            margin: 40px 0 50px;
+            text-transform: uppercase;
+        }
+    
+        p{
+            margin-top: 15px;
+        }
+
+        form{
+            margin-top: 80px;
+
+           
+            .form_content{
+                display: flex;
+                padding:10px 0;
+
+                .form_name{
+                    min-width: 100px
+                }
+
+                
+                
+            }
+            
+            input, textarea{
+                border: 1px solid #3e9578;
+            }
+
+            .form_content_2{
+                margin-top: 10px;
+
+                .form_textarea{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    margin-top: 15px;
+                    
+                    textarea{
+                        border: 1px solid #3e9578;
+                        resize: none;
+                        width: calc( 100% - 35px );
+                        height: 100px;
+                        
+        
+                    }
+                }
+            }
+
+
+            
+        }
+
+    }
+}
