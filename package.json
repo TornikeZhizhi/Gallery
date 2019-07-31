@@ -23,6 +23,7 @@
   "homepage": "https://github.com/TornikeZhizhi/Gallery#readme",
   "keywords": [],
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.0",
     "cross-env": "^5.2.0",
     "laravel-mix": "^4.1.2",
     "resolve-url-loader": "^3.1.0",
