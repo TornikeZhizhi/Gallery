@@ -43,6 +43,7 @@
             font-size: 23px;
             color:#ffbc00;
             text-transform: uppercase;
+            margin-top: 30px;
     
         }
 
@@ -56,12 +57,19 @@
         display: flex;
         flex-wrap: wrap;
         width: 30%;
-        margin: 50px auto;
+        margin: 60px auto;
         
         img{
             width: 35px;
             height: 35px;
             margin: 20px;
+            border-radius:5px;
+        }
+
+        .share_link{
+            color: #3e9578;
+            text-align: center;
+            margin-top: 60px;
         }
     }
 
