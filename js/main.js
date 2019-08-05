@@ -7,5 +7,31 @@ $(document).ready(function(){
     var imgWidth = $('.img_box').width();
     var imgBox = $('.img_box')
         imgBox.height(imgWidth)
+    });
+
+    $('.member_info img').on('click',function(){
+       $(this).parent().next($('.text_content')).slideToggle()
     })
+
+  
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+          margin: 10,
+          nav: true,
+          loop: false,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 3
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+      
+
+
 })

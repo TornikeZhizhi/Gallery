@@ -13,7 +13,8 @@
 
 	    		.category_box {
 	    			    height: 100%;
-	    			    perspective: 200px;
+						perspective: 200px;
+						
 
 	    			    &:hover .category_tittle a{
 	    						color: #f5c745;
@@ -22,12 +23,14 @@
 
 	    				.category_img {
 	    					height:calc(100% - 12px);
-	    					transition: all .4s;
+							transition: all .4s;
+							
 
 	    					&:hover{
 
 	    						animation: rotateAnime 1s linear backwards;
 	    					}
+							
 
 	    					
 
@@ -38,7 +41,8 @@
 							    align-items: center;
 
 	    						img {
-	    						height: 90%;
+								height: 90%;
+								
 	    						}
 	    					}
 	    				}
