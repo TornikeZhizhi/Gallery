@@ -64,6 +64,12 @@ body {
 .home_category_container .row .col-12 .category_box .category_img {
   height: calc(100% - 12px);
   transition: all 0.4s;
+  position: relative;
+}
+
+.home_category_container .row .col-12 .category_box .category_img .background_img {
+  position: absolute;
+  top: 0;
 }
 
 .home_category_container .row .col-12 .category_box .category_img:hover {

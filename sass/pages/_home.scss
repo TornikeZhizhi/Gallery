@@ -16,6 +16,9 @@
 						perspective: 200px;
 						
 
+						
+						
+
 	    			    &:hover .category_tittle a{
 	    						color: #f5c745;
 	    						
@@ -24,6 +27,16 @@
 	    				.category_img {
 	    					height:calc(100% - 12px);
 							transition: all .4s;
+							position: relative;
+
+
+							.background_img{
+								position: absolute;
+								top: 0;
+								
+								
+								
+							}
 							
 
 	    					&:hover{
