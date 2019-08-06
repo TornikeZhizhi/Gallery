@@ -33,7 +33,8 @@ $(document).ready(function(){
         })
       
         $('[data-ui="open"]').on('click', function(){
-          $(this).toggleClass('active')
+          $(this).toggleClass('active');
+          $(".header_navigation ul").slideToggle()
         });
 
 
