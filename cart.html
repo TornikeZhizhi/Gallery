@@ -75,7 +75,7 @@
 
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
                     <div class="product_list">
                         <div class="cart_product">
                             <div class="cart_product_img">
@@ -143,16 +143,21 @@
                 </div>
 
 
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
                     <div class="pay_container">
                         <div class="pay_title">
                             <span>How you'll pay</span>
                         </div>
 
+
+                        
+                              
                         <div class="payment">
-                            <div>
-                                <input type="radio" name="select" >
-                            </div>
+                                  
+                                  <label class="cart_button">
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                  </label>
                             <div>
                                 <img src="images/visa.png" alt="">
                                 <img src="images/mastercard.png" alt="">
@@ -160,9 +165,10 @@
                         </div>
 
                         <div class="payment">
-                            <div>
-                                <input type="radio" name="select" >
-                            </div>
+                                <label class="cart_button">
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
                             <div>
                                 <img src="images/paypal.png" alt="">
                             </div>
@@ -212,14 +218,14 @@
 				
 			</ul>
 
-	</footer> 
+    </footer> 
+    
+
 
     
 
 
 
-
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="jquery.min.js"></script>
 <script src="dist/owl.carousel.js"></script>

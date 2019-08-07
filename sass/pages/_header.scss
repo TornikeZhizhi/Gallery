@@ -56,9 +56,6 @@ header{
             justify-content: space-between;
             padding: 10px 75px 10px 30px;
 
-            .dropdown_menu{
-                
-            }
 
         
         ul{
@@ -296,4 +293,5 @@ header{
 
 .dropdown_menu {
   display: flex;
+  align-items: center;
 }

@@ -461,6 +461,7 @@ button {
 
 .dropdown_menu {
   display: flex;
+  align-items: center;
 }
 
 .category_for_home {
@@ -1002,6 +1003,11 @@ button {
   margin: 30px 0;
 }
 
+.user_product a.active {
+  opacity: 0.5;
+  display: block;
+}
+
 .user_product h3 {
   color: #3e9578;
   text-transform: uppercase;
@@ -1015,6 +1021,7 @@ button {
 
 .cup_box {
   margin: 20px auto;
+  text-align: center;
 }
 
 .cup_box a {
@@ -1054,10 +1061,13 @@ button {
 
 .cart_fluid .cart_product .cart_product_img {
   max-width: 170px;
+  height: 100%;
+  width: 100%;
 }
 
 .cart_fluid .cart_product .cart_product_img img {
   width: 100%;
+  height: 100%;
 }
 
 .cart_fluid .cart_product .product_info {
@@ -1084,6 +1094,7 @@ button {
   width: 30%;
   color: #3e9578;
   outline: none;
+  height: 30px;
 }
 
 .cart_fluid .cart_product .product_info button {
@@ -1112,6 +1123,69 @@ button {
   display: flex;
   align-items: center;
   margin: 15px 0;
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+.cart_fluid .pay_container .payment .cart_button {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cart_fluid .pay_container .payment .cart_button input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.cart_fluid .pay_container .payment .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.cart_fluid .pay_container .payment .cart_button:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.cart_fluid .pay_container .payment .cart_button input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.cart_fluid .pay_container .payment .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.cart_fluid .pay_container .payment .cart_button input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.cart_fluid .pay_container .payment .cart_button .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
 }
 
 .cart_fluid .pay_container .payment input {
@@ -1153,12 +1227,11 @@ button {
 }
 
 .cart_fluid .pay_container .checkout_button button {
-  width: 80%;
   background-color: white;
   color: #3e9578;
   border: 1px solid #3e9578;
-  letter-spacing: 4px;
-  padding: 15px;
+  letter-spacing: 2px;
+  padding: 12px 10px 15px;
   font-weight: bold;
   text-transform: uppercase;
   outline: none;
@@ -1252,6 +1325,40 @@ footer ul a:hover {
     display: flex;
     justify-content: space-around;
   }
+
+  header .header_navigation li {
+    padding: unset;
+  }
+
+  .hamburger {
+    width: 25px;
+    height: 20px;
+  }
+
+  header .header_navigation img {
+    width: 25px;
+  }
+
+  header .header_navigation a {
+    font-size: 13px;
+  }
+
+  .cart_fluid {
+    margin: unset;
+  }
+
+  .cart_fluid .cart_product .product_info button {
+    height: 30px;
+  }
+
+  .cart_fluid .pay_container .checkout_button button {
+    letter-spacing: 2px;
+  }
+
+  .cart_fluid h2 {
+    font-size: 20px;
+    margin: 30px 0 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1304,8 +1411,79 @@ footer ul a:hover {
     font-size: 14px;
   }
 
-  .cup_box img {
+  .cup_box {
     width: 90%;
+    margin: 15px auto;
+  }
+
+  .about_container .team_members .member_img {
+    max-width: 160px;
+  }
+
+  .about_container {
+    margin: 20px auto;
+  }
+
+  .about_container .about_content h2 {
+    margin-top: 15px;
+  }
+
+  .about_container .team_content h2 {
+    margin: 15px;
+  }
+
+  footer {
+    margin-top: 35px;
+  }
+
+  .about_container .about_content p {
+    margin-top: 10px;
+  }
+
+  .workshops_container {
+    padding-top: unset;
+  }
+
+  .workshops_container h3 {
+    margin-top: 10px;
+  }
+
+  .workshops_container p {
+    padding: 7px;
+  }
+
+  .past_workshops .row .past_workshops_content p {
+    padding: 10px;
+    max-height: 150px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+
+  .cart_fluid .cart_product .product_info h3 {
+    font-size: 15px;
+  }
+
+  .cart_fluid .cart_product .product_info span {
+    font-size: 12px;
+  }
+
+  .cart_fluid .cart_product .product_info input {
+    width: 45%;
+  }
+
+  .cart_fluid .pay_container .checkout_button button {
+    padding: unset;
+    white-space: pre-wrap;
+  }
+
+  .cart_fluid .pay_container {
+    margin: 35px 0 0;
+    padding: 20px;
+    border: 1px solid #3e9578;
+  }
+
+  .cart_fluid .cart_product {
+    margin: 20px 0;
   }
 }
 

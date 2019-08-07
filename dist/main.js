@@ -105,7 +105,8 @@ $(document).ready(function () {
   var owl = $('.owl-carousel');
   owl.owlCarousel({
     margin: 10,
-    nav: true,
+    nav: false,
+    dots: false,
     loop: false,
     responsive: {
       0: {

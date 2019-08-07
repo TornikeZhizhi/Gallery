@@ -7,12 +7,6 @@
 }
 
 
-
-
-
-
-
-
 @media only screen and (max-width: 992px){
     header .header_navigation {
 
@@ -69,9 +63,52 @@
     justify-content: space-around;
   }
 
+  header .header_navigation li{
+    padding:unset;
+  }
+
+  .hamburger{
+    width: 25px;
+    height: 20px;
+  }
+
+  header .header_navigation img {
+    width: 25px;
+  }
+
+  header .header_navigation a {
+    font-size: 13px;
+    
+  }
+
+  .cart_fluid {
+    margin: unset;
+  }
+
+  .cart_fluid .cart_product .product_info button {
+    height: 30px;
+  }
+  .cart_fluid .pay_container .checkout_button button{
+    letter-spacing: 2px;
+  }
+
+  .cart_fluid h2 {
+    font-size: 20px;
+    margin: 30px 0 0;
+}
+
+  
 
 
  }
+
+
+
+
+
+
+
+
 
 
 
@@ -126,9 +163,87 @@
     font-size: 14px;
   }
 
-  .cup_box img{
+  .cup_box{
     width:90%;
+    margin: 15px auto;
   }
+
+  .about_container .team_members .member_img{
+    max-width: 160px;
+  }
+
+  .about_container {
+    margin: 20px auto;
+}
+
+.about_container .about_content h2 {
+   margin-top: 15px;
+}
+
+.about_container .team_content h2 {
+  margin: 15px;;
+  
+}
+
+
+footer{
+  margin-top:35px;
+}
+
+.about_container .about_content p {
+  margin-top: 10px;
+}
+
+
+.workshops_container{
+  padding-top:unset;
+
+  h3{
+    margin-top: 10px;
+  }
+
+  p{
+    padding:7px;
+  }
+}
+
+.past_workshops .row .past_workshops_content p{
+  padding: 10px;
+  max-height: 150px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+
+.cart_fluid .cart_product .product_info h3 {
+  font-size: 15px;
+}
+
+.cart_fluid .cart_product .product_info span {
+  font-size: 12px
+}
+
+
+.cart_fluid .cart_product .product_info input {
+  width:45%;
+}
+
+.cart_fluid .pay_container .checkout_button button{
+  padding: unset;
+  white-space: pre-wrap;
+}
+
+.cart_fluid .pay_container {
+    margin: 35px 0 0;
+    padding: 20px;
+    border: 1px solid #3e9578;
+}
+
+.cart_fluid .cart_product {
+    margin: 20px 0;
+}
+
+
 
 }
 
