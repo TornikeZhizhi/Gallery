@@ -92,9 +92,21 @@
     letter-spacing: 2px;
   }
 
+  .cart_fluid .pay_container .checkout_button {
+    text-align: center;
+    margin-top: 20px;
+}
+
   .cart_fluid h2 {
     font-size: 20px;
     margin: 30px 0 0;
+}
+
+.contact_container .social_links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 20px auto;
 }
 
   
@@ -225,22 +237,28 @@ footer{
 
 
 .cart_fluid .cart_product .product_info input {
-  width:45%;
+  width:35%;
 }
 
 .cart_fluid .pay_container .checkout_button button{
   padding: unset;
   white-space: pre-wrap;
+  padding-right:5px;
 }
 
 .cart_fluid .pay_container {
     margin: 35px 0 0;
     padding: 20px;
     border: 1px solid #3e9578;
+    font-size: 14px;
 }
 
 .cart_fluid .cart_product {
     margin: 20px 0;
+}
+
+.cart_fluid .pay_container .payment {
+   margin: 5px 0;
 }
 
 

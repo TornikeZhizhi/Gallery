@@ -40,6 +40,11 @@ $(document).ready(function(){
         });
 
 
+        $(".back_icon").click(function(){
+          window.history.back();
+    })
+
+
 })
 
 

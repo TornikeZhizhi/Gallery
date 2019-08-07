@@ -124,6 +124,9 @@ $(document).ready(function () {
     $(this).toggleClass('active');
     $(".header_navigation ul").slideToggle();
   });
+  $(".back_icon").click(function () {
+    window.history.back();
+  });
 });
 
 /***/ }),
