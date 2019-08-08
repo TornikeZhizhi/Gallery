@@ -260,30 +260,7 @@ header{
       text-align: center;
   }
   
-  button {
-    display: inline-block;
-      vertical-align: middle;
-      min-width: 45px;
-      height: 47px;
-      padding: 0 25px;
-      border: 1px solid #ff0000;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    user-select: none;
-    background-color: #ff0000;
-    background-image: none;
-    background-repeat: repeat-x;
-    line-height: 46px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    transition: all .25s linear 0s;
-    background-size: 0 0;
-  
-  }
+ 
   
   .btn-effect-1 {
     &:hover {

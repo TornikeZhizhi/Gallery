@@ -61,6 +61,10 @@
         }
 
         .product_info{
+
+            .product_article{
+                display: none;
+            }
       
             
             .product_title{
@@ -76,64 +80,25 @@
                     letter-spacing: 1px;
                 }
 
-            }
-
-            p{
-                letter-spacing: 1px;
-                margin-top: 10px;    
-            }
-
-        }
-
-        .refund_policy{
-      
-            
-            .product_title{
-                display: flex;
-                justify-content: space-between;
-                border-top: 1px solid #3e9578;
-                padding-top: 20px;
-                margin-top: 25px;
-
-                span{
-                    font-size: 20px;
-                    text-transform: uppercase;
-                    letter-spacing: 1px;
-                }
-                
-                
-            }
-            
-            p{
-                letter-spacing: 1px;
-                margin-top: 10px;    
-            }
-        }
-
-        .shipping_info{
-      
-            
-            .product_title{
-                display: flex;
-                justify-content: space-between;
-                border-top: 1px solid #3e9578;
-                padding-top: 20px;
-                margin-top: 25px;
-
-                span{
-                    font-size: 20px;
-                    text-transform: uppercase;
-                    letter-spacing: 1px;
+                img{
+                    width: 30px;
+                    height: 30px;
                 }
 
+    
+
             }
 
             p{
                 letter-spacing: 1px;
-                margin-top: 10px;    
+                margin-top: 10px;  
+               
+                 
             }
 
         }
+
+        
 
         
         

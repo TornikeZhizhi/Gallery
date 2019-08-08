@@ -1,3 +1,7 @@
+.home_height_calc{
+    height: calc(100vh - 125px);
+}
+
 .category_for_home{
     
     display: flex;
@@ -7,6 +11,8 @@
         img{
           
             width: 100%;
+            height: 100%;
+            object-fit:cover;
         
         }
         

@@ -9,9 +9,9 @@ $(document).ready(function(){
         imgBox.height(imgWidth)
     });
 
-    $('.member_info img').on('click',function(){
-       $(this).parent().next($('.text_content')).slideToggle()
-    })
+    // $('.member_info img').on('click',function(){
+    //    $(this).parent().next($('.text_content')).slideToggle()
+    // })
 
   
         var owl = $('.owl-carousel');
@@ -43,6 +43,16 @@ $(document).ready(function(){
         $(".back_icon").click(function(){
           window.history.back();
     })
+
+    $('.member_info img').on('click',function(){
+      $(this).parent().next($('.text_content')).slideToggle()
+   })
+
+   $('.container .product_section .product_info .product_title img').on('click',function(){
+    $(this).parent().next($('.text_content')).slideToggle()
+ })
+
+
 
 
 })

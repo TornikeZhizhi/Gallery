@@ -98,10 +98,10 @@ $(document).ready(function () {
     var imgWidth = $('.img_box').width();
     var imgBox = $('.img_box');
     imgBox.height(imgWidth);
-  });
-  $('.member_info img').on('click', function () {
-    $(this).parent().next($('.text_content')).slideToggle();
-  });
+  }); // $('.member_info img').on('click',function(){
+  //    $(this).parent().next($('.text_content')).slideToggle()
+  // })
+
   var owl = $('.owl-carousel');
   owl.owlCarousel({
     margin: 10,
@@ -126,6 +126,12 @@ $(document).ready(function () {
   });
   $(".back_icon").click(function () {
     window.history.back();
+  });
+  $('.member_info img').on('click', function () {
+    $(this).parent().next($('.text_content')).slideToggle();
+  });
+  $('.container .product_section .product_info .product_title img').on('click', function () {
+    $(this).parent().next($('.text_content')).slideToggle();
   });
 });
 

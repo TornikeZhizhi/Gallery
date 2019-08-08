@@ -41,7 +41,7 @@ body {
 }
 
 .home_category_container {
-  height: calc(100vh - 210px);
+  height: calc(100vh - 218px);
 }
 
 .home_category_container .row {
@@ -428,33 +428,6 @@ header .header_navigation img {
   text-align: center;
 }
 
-button {
-  display: inline-block;
-  vertical-align: middle;
-  min-width: 45px;
-  height: 47px;
-  padding: 0 25px;
-  border: 1px solid #ff0000;
-  text-align: center;
-  text-decoration: none;
-  white-space: nowrap;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  background-color: #ff0000;
-  background-image: none;
-  background-repeat: repeat-x;
-  line-height: 46px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  transition: all 0.25s linear 0s;
-  background-size: 0 0;
-}
-
 .btn-effect-1:hover {
   transform: scale(0.8);
 }
@@ -462,6 +435,10 @@ button {
 .dropdown_menu {
   display: flex;
   align-items: center;
+}
+
+.home_height_calc {
+  height: calc(100vh - 125px);
 }
 
 .category_for_home {
@@ -475,6 +452,9 @@ button {
 
 .category_for_home .for_home_img img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .category_for_home .for_home_content {
@@ -541,6 +521,7 @@ button {
 
 .cups_container .cup_box {
   margin: 20px auto;
+  text-align: left;
 }
 
 .cups_container .cup_box a {
@@ -559,7 +540,6 @@ button {
 .cups_container .cup_box .cup_info span {
   display: block;
   color: #3e9578;
-  margin-top: 5px;
 }
 
 .cups_container .pagination {
@@ -633,6 +613,10 @@ button {
   border: 1.5px solid #3e9578;
 }
 
+.container .product_section .product_info .product_article {
+  display: none;
+}
+
 .container .product_section .product_info .product_title {
   display: flex;
   justify-content: space-between;
@@ -647,45 +631,12 @@ button {
   letter-spacing: 1px;
 }
 
+.container .product_section .product_info .product_title img {
+  width: 30px;
+  height: 30px;
+}
+
 .container .product_section .product_info p {
-  letter-spacing: 1px;
-  margin-top: 10px;
-}
-
-.container .product_section .refund_policy .product_title {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #3e9578;
-  padding-top: 20px;
-  margin-top: 25px;
-}
-
-.container .product_section .refund_policy .product_title span {
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.container .product_section .refund_policy p {
-  letter-spacing: 1px;
-  margin-top: 10px;
-}
-
-.container .product_section .shipping_info .product_title {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #3e9578;
-  padding-top: 20px;
-  margin-top: 25px;
-}
-
-.container .product_section .shipping_info .product_title span {
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.container .product_section .shipping_info p {
   letter-spacing: 1px;
   margin-top: 10px;
 }
@@ -809,6 +760,11 @@ button {
   min-width: 100px;
 }
 
+.workshops_container .workshops_content form input {
+  max-width: 50%;
+  width: 100%;
+}
+
 .workshops_container .workshops_content form input,
 .workshops_container .workshops_content form textarea {
   border: 1px solid #3e9578;
@@ -889,7 +845,7 @@ button {
 }
 
 .contact_container {
-  margin: 50px;
+  margin: 40px 0;
 }
 
 .contact_container .contact_map {
@@ -929,11 +885,11 @@ button {
 }
 
 .contact_container .find_us h2 {
-  padding: 30px 0;
+  padding: 20px 0;
   font-size: 23px;
   color: #ffbc00;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .contact_container .find_us .contact_number {
@@ -943,8 +899,9 @@ button {
 .contact_container .social_links {
   display: flex;
   flex-wrap: wrap;
-  width: 35%;
-  margin: 60px auto;
+  width: 150px;
+  margin: 35px auto;
+  justify-content: center;
 }
 
 .contact_container .social_links img {
@@ -957,7 +914,7 @@ button {
 .contact_container .social_links .share_link {
   color: #3e9578;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .user_account {
@@ -1240,7 +1197,7 @@ button {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 25px;
   background-color: #3e9578;
 }
 
@@ -1369,8 +1326,67 @@ footer ul a:hover {
   .contact_container .social_links {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 150px;
     margin: 20px auto;
+  }
+
+  .contact_container .find_us h2 {
+    padding: 15px;
+    font-size: 20px;
+    margin-top: unset;
+  }
+
+  .contact_container .social_links img {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+  }
+
+  .height_calc {
+    height: unset;
+  }
+
+  .category_for_home .for_home_content {
+    margin-top: unset;
+  }
+
+  .category_for_home .for_home_content ul li a {
+    color: #3e9578;
+    line-height: 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .category_for_home .for_home_img img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .container .product_img img {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .container .product_section {
+    margin-top: 30px;
+  }
+
+  .container .product_section {
+    padding-left: 15px;
+  }
+
+  .container .product_section .quantity button {
+    letter-spacing: unset;
+    word-spacing: unset;
+    letter-spacing: unset;
+    margin-top: unset;
+    padding: unset;
+  }
+
+  .workshops_container .workshops_content form input {
+    max-width: 50%;
   }
 }
 
@@ -1412,6 +1428,7 @@ footer ul a:hover {
 
   footer ul {
     padding: 5px 0;
+    font-size: 14px;
   }
 
   footer ul li {
@@ -1503,6 +1520,152 @@ footer ul a:hover {
 
   .cart_fluid .pay_container .payment {
     margin: 5px 0;
+  }
+
+  .contact_container .adress {
+    margin-top: 10px;
+    letter-spacing: unset;
+  }
+
+  .cups_container .cups_title {
+    color: orange;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .category_for_home .for_home_img img {
+    width: 80%;
+    height: 80%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .category_for_home .for_home_content {
+    text-align: center;
+  }
+
+  .category_for_home .for_home_img {
+    text-align: center;
+  }
+
+  .category_for_home .for_home_img {
+    margin-top: 20px;
+  }
+
+  .category_for_home .for_home_content ul li a {
+    line-height: 0px;
+    font-size: 17px;
+  }
+
+  .category_for_home .for_home_content ul li:not(:last-child) {
+    margin-bottom: 2px;
+  }
+
+  .category_for_home .for_home_content ul {
+    margin-top: 30px;
+  }
+
+  .home_category_container {
+    height: unset;
+  }
+
+  .home_category_container .row .col-12 .category_box .category_img .background_img {
+    position: absolute;
+    top: 0;
+    /* background: red; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .home_category_container .row .col-12 .category_box .category_img a img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container .product_section .product_name h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  .container .product_section {
+    margin-top: 20px;
+  }
+
+  .container .product_section .product_price {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+
+  .container .product_section .quantity {
+    width: 60%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .product_img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .container .product_section .product_info .product_title {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #3e9578;
+    padding-top: 13px;
+    margin-top: 13px;
+  }
+
+  .container .product_section .product_info .product_title span {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: unset;
+  }
+
+  .container .product_section .product_info .product_title img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .container .product_section .product_info p {
+    letter-spacing: unset;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+
+  .workshops_container .workshops_img img {
+    margin-top: 30px;
+  }
+
+  .workshops_container .workshops_content form input {
+    max-width: 50%;
+  }
+
+  .workshops_container .workshops_img {
+    margin: 0 auto;
+    height: 250px;
+    width: 100%;
+  }
+
+  .past_workshops .past_workshops_title {
+    margin-bottom: 20px;
+  }
+
+  .past_workshops {
+    padding-top: 15px;
+  }
+
+  .past_workshops .row .past_workshops_content h3 {
+    margin-top: 15px;
+  }
+
+  .workshops_container .past_workshops_content {
+    padding: unset;
   }
 }
 
