@@ -3,7 +3,8 @@
 
 .home_category_container {
 
-	    height: calc(100vh - 243px);
+	height: calc(100vh - 213px);
+    margin-bottom: 20px;
 
 	    .row {
 	    	height: inherit;
@@ -16,10 +17,12 @@
 						perspective: 200px;
 						
 
-						
+						.category_title{
+							transform: translateY(-10px);
+						}
 						
 
-	    			    &:hover .category_tittle a{
+	    			    &:hover .category_title a{
 	    						color: #f5c745;
 	    						
 	    					}
@@ -90,7 +93,7 @@
 	 }
 }
 
-.category_tittle {
+.category_title {
 
 	a {
 		display: block;
