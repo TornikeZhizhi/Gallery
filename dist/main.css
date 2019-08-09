@@ -41,7 +41,7 @@ body {
 }
 
 .home_category_container {
-  height: calc(100vh - 218px);
+  height: calc(100vh - 243px);
 }
 
 .home_category_container .row {
@@ -438,7 +438,7 @@ header .header_navigation img {
 }
 
 .home_height_calc {
-  height: calc(100vh - 125px);
+  height: calc(100vh - 193px);
 }
 
 .category_for_home {
@@ -459,10 +459,6 @@ header .header_navigation img {
 
 .category_for_home .for_home_content {
   margin-top: 60px;
-}
-
-.category_for_home .for_home_content scrollbar {
-  width: 40px;
 }
 
 .category_for_home .for_home_content span a {
@@ -1197,7 +1193,6 @@ header .header_navigation img {
 }
 
 footer {
-  margin-top: 25px;
   background-color: #3e9578;
 }
 
