@@ -155,8 +155,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\tzhizhiashvili\Desktop\Gallery Project\Gallery\js\main.js */"./js/main.js");
-module.exports = __webpack_require__(/*! C:\Users\tzhizhiashvili\Desktop\Gallery Project\Gallery\sass\main.scss */"./sass/main.scss");
+__webpack_require__(/*! C:\Users\nmgeliashvili\Desktop\Gallery\js\main.js */"./js/main.js");
+module.exports = __webpack_require__(/*! C:\Users\nmgeliashvili\Desktop\Gallery\sass\main.scss */"./sass/main.scss");
 
 
 /***/ })
