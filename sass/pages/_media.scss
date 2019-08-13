@@ -171,6 +171,29 @@
   max-width: 50%;
 }
 
+  .right_arrow{
+    margin-top:20px;
+
+     img{
+       width:30px;
+     }
+  }
+
+
+  .cups_container .cup_box .cup_info {
+    display:block;
+  }
+
+
+  .back_icon{
+    width:25px;
+  }
+
+  .product_container {
+    margin-bottom:50px;
+  }
+
+
 
 
   
@@ -280,7 +303,7 @@ footer{
   }
 
   p{
-    padding:7px;
+    padding:7px 0;
   }
 }
 
@@ -453,6 +476,10 @@ footer{
   margin-top: 30px;
 }
 
+.workshops_container .workshops_content {
+  padding:unset;
+}
+
 .workshops_container .workshops_content form input {
   max-width: 50%;
 }
@@ -477,6 +504,31 @@ footer{
 
 .workshops_container .past_workshops_content{
   padding: unset;
+}
+
+.category_for_home .for_home_content ul {
+  margin-top: unset;
+}
+
+.category_for_home{
+  height:unset;
+}
+
+.back_icon {
+  margin-top:20px;
+}
+
+.pagination{
+  margin-top:20px;
+}
+
+.workshops_container .workshops_content .workshops_date {
+  text-align: center;
+  margin: 5px 0 20px;
+}
+
+.workshops_container .workshops_content p {
+    padding-bottom: 15px;
 }
 
 
