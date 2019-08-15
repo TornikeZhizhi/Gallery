@@ -1562,6 +1562,10 @@ footer ul a:hover {
   .product_container {
     margin-bottom: 50px;
   }
+
+  .home_category_container .row .col-12 .category_box .category_title {
+    transform: translateY(-5px);
+  }
 }
 
 @media only screen and (max-width: 768px) {
