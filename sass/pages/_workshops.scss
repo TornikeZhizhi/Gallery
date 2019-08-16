@@ -49,6 +49,8 @@
         
                 display: flex;
                 padding:10px 0;
+                align-items:center;
+
 
                 .form_name{
                     min-width: 100px
@@ -59,8 +61,8 @@
             }
 
             input{
-                max-width:50%;
-                width: 100%;
+                width: calc(100% - 135px);
+                padding: 7px;
             }
             
             input, textarea{

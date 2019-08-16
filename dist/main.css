@@ -842,6 +842,7 @@ header .header_navigation img {
 .workshops_container .workshops_content form .form_content {
   display: flex;
   padding: 10px 0;
+  align-items: center;
 }
 
 .workshops_container .workshops_content form .form_content .form_name {
@@ -849,8 +850,8 @@ header .header_navigation img {
 }
 
 .workshops_container .workshops_content form input {
-  max-width: 50%;
-  width: 100%;
+  width: calc(100% - 135px);
+  padding: 7px;
 }
 
 .workshops_container .workshops_content form input,
@@ -1539,10 +1540,6 @@ footer ul a:hover {
     padding: unset;
   }
 
-  .workshops_container .workshops_content form input {
-    max-width: 50%;
-  }
-
   .right_arrow {
     margin-top: 20px;
   }
@@ -1822,10 +1819,6 @@ footer ul a:hover {
 
   .workshops_container .workshops_content {
     padding: unset;
-  }
-
-  .workshops_container .workshops_content form input {
-    max-width: 50%;
   }
 
   .workshops_container .workshops_img {
