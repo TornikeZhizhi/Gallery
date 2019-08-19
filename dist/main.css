@@ -2055,3 +2055,40 @@ footer ul a:hover {
   margin-right: 30px;
 }
 
+.new_password {
+  width: 600px;
+  margin: 0 auto;
+  height: calc(100vh - 281px);
+}
+
+.new_password p {
+  color: #3e9578;
+  margin: 100px 0 50px;
+}
+
+.new_password input[type=text] {
+  width: 100%;
+  border: 1px solid #3e9578;
+  margin: 2px 0 15px;
+  padding: 8px;
+}
+
+.new_password span {
+  margin-left: 10px;
+  color: #3e9578;
+}
+
+.new_password .reset_button {
+  width: 100%;
+  text-align: center;
+}
+
+.new_password .reset_button button {
+  width: 60%;
+  padding: 6px;
+  background-color: #3e9578;
+  color: white;
+  outline: none;
+  margin-top: 30px;
+}
+
