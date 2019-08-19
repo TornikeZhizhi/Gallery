@@ -9,7 +9,17 @@
         font-size: 23px;
         margin-bottom: 40px;
         text-transform: uppercase;
+       
     }
+
+    .username span{
+        margin-left: 10px;
+    }
+
+    .password span{
+        margin-left:10px;
+    }
+
 
     input[type=text]{
         width: 100%;
@@ -17,6 +27,7 @@
         margin: 2px 0 15px;
         padding: 8px;
     }
+
 
     button{
         width: 100%;

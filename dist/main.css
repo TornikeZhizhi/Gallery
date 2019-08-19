@@ -1883,6 +1883,14 @@ footer ul a:hover {
   text-transform: uppercase;
 }
 
+.my_account .username span {
+  margin-left: 10px;
+}
+
+.my_account .password span {
+  margin-left: 10px;
+}
+
 .my_account input[type=text] {
   width: 100%;
   border: 1px solid #3e9578;
@@ -1905,5 +1913,145 @@ footer ul a:hover {
 
 .my_account span a {
   color: #3e9578;
+}
+
+.registration_container {
+  margin: 100px auto;
+  max-width: 630px;
+  height: 100%;
+}
+
+.registration_container h1 {
+  text-align: center;
+  color: #3e9578;
+  font-size: 23px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.registration_container .registration_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.registration_container .registration_name span {
+  margin-left: 10px;
+  color: #3e9578;
+}
+
+.registration_container .registration_name input {
+  width: 300px;
+  border: 1px solid #3e9578;
+  margin: 2px 0 15px;
+  padding: 8px;
+}
+
+.registration_container .registration_mail {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration_container .registration_mail span {
+  margin-left: 10px;
+  color: #3e9578;
+}
+
+.registration_container .registration_mail input {
+  width: 100%;
+  border: 1px solid #3e9578;
+  margin: 2px 0 15px;
+  padding: 8px;
+}
+
+.registration_container .registration_button {
+  width: 100%;
+  text-align: center;
+}
+
+.registration_container .registration_button button {
+  width: 60%;
+  padding: 6px;
+  background-color: #3e9578;
+  color: white;
+  outline: none;
+  margin-top: 30px;
+}
+
+.registration_container .gender {
+  display: flex;
+  align-items: center;
+}
+
+.registration_container .gender .payment {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+.registration_container .gender .payment span {
+  color: #3e9578;
+}
+
+.registration_container .gender .payment .cart_button {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.registration_container .gender .payment .cart_button input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.registration_container .gender .payment .checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.registration_container .gender .payment .cart_button:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.registration_container .gender .payment .cart_button input:checked ~ .checkmark {
+  background-color: #3e9578;
+  border: 1px solid #3e9578;
+  padding: 2px;
+  padding: 1px;
+  background-clip: content-box;
+}
+
+.registration_container .gender .payment .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.registration_container .gender .payment .cart_button input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.registration_container .gender .payment input {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
 }
 
