@@ -1872,6 +1872,7 @@ footer ul a:hover {
 .my_account {
   margin: 100px auto;
   max-width: 300px;
+  height: calc( 100vh - 381px);
 }
 
 .my_account h1 {
@@ -1885,7 +1886,7 @@ footer ul a:hover {
 .my_account input[type=text] {
   width: 100%;
   border: 1px solid #3e9578;
-  margin: 20px auto;
+  margin: 2px 0 15px;
   padding: 8px;
 }
 
@@ -1895,10 +1896,14 @@ footer ul a:hover {
   background-color: #3e9578;
   color: white;
   outline: none;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .my_account span {
+  color: #3e9578;
+}
+
+.my_account span a {
   color: #3e9578;
 }
 

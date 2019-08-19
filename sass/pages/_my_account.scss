@@ -1,6 +1,7 @@
 .my_account{
     margin:100px auto;
     max-width: 300px;   
+    height: calc( 100vh - 381px);
 
     h1{
         text-align: center;
@@ -13,7 +14,7 @@
     input[type=text]{
         width: 100%;
         border: 1px solid #3e9578;
-        margin: 20px auto;
+        margin: 2px 0 15px;
         padding: 8px;
     }
 
@@ -23,11 +24,15 @@
         background-color: #3e9578;
         color: white;
         outline: none;
-        margin-bottom: 15px;
+        margin: 15px 0;
     }
 
     span{
         color: #3e9578;
+
+        a{
+            color:#3e9578;
+        }
     }
 
 
