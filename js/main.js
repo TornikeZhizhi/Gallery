@@ -58,3 +58,17 @@ $(document).ready(function(){
 })
 
 
+
+// window.onscroll = function() {myFunction()};
+
+//     var headernav = document.getElementByClassName("header_navigation")[0];
+//     var sticky = headernav.offsetTop;
+
+//     function myFunction() {
+//     if (window.pageYOffset > sticky) {
+//         headernav.classList.add("sticky");
+//     } else {
+//         headernav.classList.remove("sticky");
+//     }
+//     }
+

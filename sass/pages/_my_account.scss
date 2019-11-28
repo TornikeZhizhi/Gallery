@@ -13,9 +13,21 @@
     input[type=text]{
         width: 100%;
         border: 1px solid #3e9578;
-        margin: 20px auto;
         padding: 8px;
+        margin-bottom: 15px;
     }
+
+    .password{
+    span{
+                margin-left: 5px;
+            }
+        }
+
+    .username{
+        span{
+                 margin-left: 5px;
+             }
+         }
 
     button{
         width: 100%;
@@ -23,11 +35,15 @@
         background-color: #3e9578;
         color: white;
         outline: none;
-        margin-bottom: 15px;
+        margin: 15px 0;
     }
 
     span{
         color: #3e9578;
+
+        a{
+            color:#3e9578;
+        }
     }
 
 
