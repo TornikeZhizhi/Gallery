@@ -1,6 +1,7 @@
 .my_account{
     margin:100px auto;
     max-width: 300px;   
+    height: calc( 100vh - 381px);
 
     h1{
         text-align: center;
@@ -8,15 +9,36 @@
         font-size: 23px;
         margin-bottom: 40px;
         text-transform: uppercase;
+       
     }
+
+    .username span{
+        margin-left: 10px;
+    }
+
+    .password span{
+        margin-left:10px;
+    }
+
 
     input[type=text]{
         width: 100%;
         border: 1px solid #3e9578;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        margin: 2px 0 15px;
+>>>>>>> 417d912d181c6b2f226ccdedfcfbc366db9f4106
+>>>>>>> aa3e3e6b1d875af1049983c2a66082f269245327
         padding: 8px;
         margin-bottom: 15px;
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> aa3e3e6b1d875af1049983c2a66082f269245327
     .password{
     span{
                 margin-left: 5px;
@@ -28,6 +50,11 @@
                  margin-left: 5px;
              }
          }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 417d912d181c6b2f226ccdedfcfbc366db9f4106
+>>>>>>> aa3e3e6b1d875af1049983c2a66082f269245327
 
     button{
         width: 100%;
